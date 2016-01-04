@@ -61,6 +61,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="Animation\Evaluator.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -71,6 +72,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Core\Figure.cs" />
+    <Compile Include="Model\NumberUtils.cs" />
+    <Compile Include="Model\Number\Eight.cs" />
+    <Compile Include="Model\Number\Five.cs" />
+    <Compile Include="Model\Number\Four.cs" />
+    <Compile Include="Model\Number\Nine.cs" />
+    <Compile Include="Model\Number\Null.cs" />
+    <Compile Include="Model\Number\One.cs" />
+    <Compile Include="Model\Number\Seven.cs" />
+    <Compile Include="Model\Number\Six.cs" />
+    <Compile Include="Model\Number\Three.cs" />
+    <Compile Include="Model\Number\Two.cs" />
+    <Compile Include="Model\Number\Zero.cs" />
+    <Compile Include="NumberTweener.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

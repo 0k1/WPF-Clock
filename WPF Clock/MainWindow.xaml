@@ -103,8 +103,12 @@
                 </TransformGroup>
             </Path.RenderTransform>
         </Path>
-        <TextBlock x:Name="time" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF13D4FF"
+        <StackPanel VerticalAlignment="Center" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBlock x:Name="time" HorizontalAlignment="Center" Visibility="Visible" VerticalAlignment="Center" Foreground="#FF13D4FF"
                 FontSize="23" />
+            <Path x:Name="path3" Height="50" Width="40" Stroke="#FF13D4FF" StrokeThickness="3" Data="{Binding PathData}" />
+            <Path x:Name="path2" Height="50" Width="40" Stroke="#FF13D4FF" StrokeThickness="3" Data="{Binding PathData}" />
+        </StackPanel>
 
     </Grid>
 </Window>
